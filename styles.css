@@ -844,8 +844,7 @@ li:hover{
 
     .card-header .year01 {
         margin-top: 5px; /* Add spacing if needed */
-        display: flex; /* Ensure it takes the full width */
-        flex-direction: column;
+        display: block;
         text-align: center; /* Align the year to the left */
     }
 

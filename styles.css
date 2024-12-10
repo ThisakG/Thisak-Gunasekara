@@ -842,12 +842,14 @@ li:hover{
         margin-top: 5px; /* Add spacing if needed */
         display: block; /* Ensure it takes the full width */
         text-align: center; /* Align the year to the left */
+        color:#132161;
     }
 
     .card-header .tagline03 {
         margin-top: 5px; /* Add spacing if needed */
         display: block; /* Ensure it takes the full width */
         text-align: center; /* Align the year to the left */
+        color:#132161;
     }
 
 }

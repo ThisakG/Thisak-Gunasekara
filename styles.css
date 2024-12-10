@@ -765,40 +765,7 @@ li:hover{
 
 @media screen and (max-width: 768px) {
     .navbar {
-        padding: 10px 20px; /* Reduced padding */
-        flex-direction: row; /* Stack items vertically */
-        align-items: flex-start;
-    }
-
-    .navbar .logo {
-        font-size: 1.2rem; /* Smaller font size for mobile */
-        margin-bottom: 10px; /* Add space below logo */
-    }
-
-    .navbar ul {
-        display: flex;
-        flex-direction: column; /* Stack navbar items vertically */
-        gap: 10px;
-        width: 100%; /* Full width */
-    }
-
-    .navbar ul li {
-        text-align: center; /* Center-align text for mobile */
-    }
-
-    .navbar ul li a {
-        font-size: 1.1rem; /* Slightly larger text for readability */
-    }
-
-    .resume-button {
-        font-size: 1rem; /* Adjust button text size */
-        padding: 12px 25px; /* Make button bigger for touchscreens */
-        width: 100%; /* Make the button full-width */
-        margin-top: 10px; /* Add some spacing between button and navbar */
-    }
-
-    .favlogo {
-        width: 24px; /* Adjust favlogo size for mobile */
+        display: none;
     }
 
 }

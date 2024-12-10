@@ -765,10 +765,6 @@ li:hover{
 
 @media screen and (max-width: 768px) {
     .navbar {
-        display: none;
-    }
-
-    .navbar {
         padding: 10px 20px; /* Reduced padding */
         flex-direction: column; /* Stack items vertically */
         align-items: flex-start;

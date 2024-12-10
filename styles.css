@@ -530,6 +530,11 @@ li:hover{
   .card-body .card-header:hover{
     background-color: #c2cbda
   }
+
+  .card:hover {
+    transform: translateY(-12px);
+    background-color: #d6d7db; /* Light effect for the whole card */
+}
   
 
 /*Projects worked on section*/

@@ -874,22 +874,19 @@ li:hover{
     }
 
       .mobile-only{
-        display: block;
+        display: block !important;
         padding: 4px !important;
-        border: 1px solid #fff;
-        color: #fff;
-        border-radius: 5px;
+        border: 1px solid #fff !important;
+        color: #fff !important;
+        border-radius: 8px !important; 
         text-decoration: none;
-        font-size: 0.8rem;
-        transition: background-color 0.3s, color 0.3s;
-        transition: transform 0.5s ease-in-out;
+        font-size: 0.8rem !important;
     }
 
     .mobile-only:hover {
-        background-color: #fff;
-        border:#fff;
-        color: #081030; /* Deep navy */
-        transition: color 0.3s, transform 0.3s ease-in-out;
+        background-color: #fff !important;
+        border:#fff !important;
+        color: #081030 !important; /* Deep navy */
     }
 
 }

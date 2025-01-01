@@ -875,15 +875,13 @@ li:hover{
 
       .mobile-only{
         display: block !important;
-        padding-top: 10px !important;
-        padding-bottom: 10px !important;
-        padding-left: 8px !important;
-        padding-right: 8px !important;
+        padding: 8px !important;
         border: 1px solid #fff !important;
         color: #fff !important;
         border-radius: 8px !important; 
         text-decoration: none;
         font-size: 0.8rem !important;
+        box-sizing: border-box;
     }
 
     .mobile-only:hover {

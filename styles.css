@@ -559,7 +559,7 @@ li:hover{
     display: flex;
     flex-direction: row; /* make it horizontal inside the card */
     align-items: stretch;
-    width: 90%; /* increase width relative to container */
+    width: 100%; /* increase width relative to container */
     max-width: 1000px; /* wider cards */
     height: 400px; /* reduce vertical height */
     margin: 0 auto;

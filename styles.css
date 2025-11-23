@@ -183,8 +183,8 @@ circle {
 }
 
 .resume-button:hover {
-    background-color: #E0B98A;
-    border: 1px solid #E0B98A;
+    background-color: #FFD39B;
+    border: 1px solid #FFFFFF;
     color: #F9F6F1;
     transform: scale(1.2);
 }
@@ -957,3 +957,4 @@ li:hover{
         text-align: center;
     }
 }
+

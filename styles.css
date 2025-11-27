@@ -800,6 +800,17 @@ li:hover{
     transform: scale(1.1); /* Slight zoom effect */
 }
 
+#orb-background {
+  position: fixed;        /* full-page background */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;            /* behind all content */
+  pointer-events: none;   /* allow clicks through */
+}
+
+
 @media screen and (max-width: 768px) {
 
     .logo-pre {
@@ -957,6 +968,7 @@ li:hover{
         text-align: center;
     }
 }
+
 
 
 

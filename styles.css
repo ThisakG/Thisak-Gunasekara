@@ -718,10 +718,12 @@ li:hover{
     background-color: #D2C9BF;
     color: #0E0F19;
     width: 325px;
-    border-radius: 10px;
+    height: 420px;
+    border-radius: 12px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     transition: transform 0.3s ease, background-color 0.3s ease;
   }
@@ -739,11 +741,16 @@ li:hover{
   }
 
   .card1-content {
-    padding: 20px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+  }
+
+  .view-code-btn {
+    margin-top: auto;  /* pushes button to bottom ALWAYS */
+    width: fit-content;
   }
 
   .card1 h3 {
@@ -1057,6 +1064,7 @@ li:hover{
         text-align: center;
     }
 }
+
 
 
 

@@ -436,9 +436,13 @@ li:hover{
 
 .tech-buttons {
     display: flex;
-    justify-content: space-evenly; /* Distributes buttons evenly across the container */
-    flex-wrap: wrap; /* Allows buttons to wrap to the next line if necessary */
+    justify-content: center; /* Center the buttons */
+    flex-wrap: wrap; /* Allows buttons to wrap to the next line */
+    gap: 12px; /* Consistent spacing between buttons */
     margin-top: 20px;
+    max-width: 800px; /* Limit the container width */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .tech-btn {
@@ -449,15 +453,12 @@ li:hover{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin: 5px;
-    transition: background-color 0.3s ease;
-    transition:transform 0.3s;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .tech-btn:hover {
-    
     transform: scale(1.05);
-    background-color: #E0B98A ;
+    background-color: #E0B98A;
     color: #0E0F19;
 }
 
@@ -1054,7 +1055,18 @@ li:hover{
     .project-details {
         text-align: center;
     }
+
+        .tech-buttons {
+        gap: 8px;
+        max-width: 100%;
+    }
+    
+    .tech-btn {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+    }
 }
+
 
 
 

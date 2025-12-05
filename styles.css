@@ -758,7 +758,7 @@ li:hover{
   .card a:hover {
     /*background-color: #C6B8A9;*/
     transform: scale(1.05);
-    filter: brightness(1.1);
+    /*filter: brightness(1.1);*/
   }
 
 .view-code-btn {
@@ -1062,6 +1062,7 @@ li:hover{
         text-align: center;
     }
 }
+
 
 
 

@@ -768,20 +768,6 @@ li:hover{
     text-decoration: underline;
   }
 
-.view-code-btn {
-    display: inline-block;
-    padding: 8px 18px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #0E0F19;
-    background-color: #D49A6A;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    transition: transform 0.3s ease;
-  }
-
   @media (max-width: 1000px) {
     .card1 {
       width: 45%;
@@ -1069,6 +1055,7 @@ li:hover{
         text-align: center;
     }
 }
+
 
 
 

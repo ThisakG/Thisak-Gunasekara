@@ -741,11 +741,11 @@ li:hover{
   }
 
   .card1-content {
-    padding: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
+    align-items: center;    /* centers button + text horizontally */
+    text-align: center;     /* centers the h3 text */
+    padding: 15px;
   }
 
   .view-code-btn {
@@ -1064,6 +1064,7 @@ li:hover{
         text-align: center;
     }
 }
+
 
 
 

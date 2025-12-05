@@ -468,7 +468,7 @@ li:hover{
   }
 
 
-  .card {
+  .card1 {
     background-color: #D2C9BF;
     border: 1px solid #D2C9BF;
     border-radius: 8px;
@@ -1055,4 +1055,5 @@ li:hover{
         text-align: center;
     }
 }
+
 

@@ -434,6 +434,13 @@ li:hover{
     transform: scale(1.01);
 }
 
+.tech-buttons {
+    display: flex;
+    justify-content: space-evenly; /* Distributes buttons evenly across the container */
+    flex-wrap: wrap; /* Allows buttons to wrap to the next line if necessary */
+    margin-top: 20px;
+}
+
 .tech-btn {
     padding: 10px 26px;
     font-size: 1rem;
@@ -1059,6 +1066,7 @@ li:hover{
         font-size: 0.9rem;
     }
 }
+
 
 
 

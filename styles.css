@@ -502,7 +502,6 @@ li {
     transition: transform 0.3s ease;
     transition: background-color 0.3s ease;
     max-width: 1100px;
-    height: 500px;
     margin: 0 auto;
   }
   
@@ -521,8 +520,8 @@ li {
   }
   
   .card-header .logo {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     margin-right: 12px;
     border-radius: 20%; /* Makes the image circular */
     object-fit: cover; /* Ensures the image fills the circle without distortion */
@@ -536,7 +535,7 @@ li {
   }
   
   .card-header span {
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #0E0F19;
   }
   
@@ -546,8 +545,8 @@ li {
   }
 
   .card-body {
-    padding: 12px;
-    font-size: 0.95rem;
+    padding: 15px;
+    font-size: 1rem;
     color: #0E0F19;
     transition: background-color 0.3s ease;
   }
@@ -589,7 +588,6 @@ li {
     align-items: stretch;
     width: 100%; /* increase width relative to container */
     max-width: 1100px; /* wider cards */
-    height: 500px; /* reduce vertical height */
     margin: 0 auto;
     background-color: #1C1F26;
     border-radius: 8px;
@@ -1094,6 +1092,7 @@ li {
         font-size: 0.9rem;
     }
 }
+
 
 
 

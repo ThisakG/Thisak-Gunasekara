@@ -405,11 +405,11 @@ li {
     padding-bottom: 8px; /* Optional for spacing between list items */
 }
 
-li:hover{
+/*li:hover{
     color: #D49A6A; 
     transition: transform 0.3s, color 0.3s;
     cursor: default;
-}
+}*/
 
 #about {
     margin-top: -50px;
@@ -1091,6 +1091,7 @@ li:hover{
         font-size: 0.9rem;
     }
 }
+
 
 
 

@@ -716,6 +716,23 @@ li:hover{
     align-items: center;
   }
 
+/* Standardize card heights */
+.card,
+.project-item {
+    min-height: 450px; /* Set a consistent minimum height */
+    max-height: 450px; /* Set a consistent maximum height */
+}
+
+/* Make sure content inside adapts properly */
+.card-body {
+    flex-grow: 1;
+    overflow-y: auto; /* Add scroll if content is too long */
+}
+
+.project-details {
+    overflow-y: auto; /* Add scroll if content is too long */
+}
+
 /*articles section*/
   
  #articles {
@@ -1091,6 +1108,7 @@ li:hover{
         font-size: 0.9rem;
     }
 }
+
 
 
 

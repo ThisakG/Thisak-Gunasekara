@@ -586,7 +586,7 @@ li {
     flex-direction: row; /* make it horizontal inside the card */
     align-items: stretch;
     width: 100%; /* increase width relative to container */
-    max-width: 1100px; /* wider cards */
+    max-width: 1500px; /* wider cards */
     margin: 0 auto;
     background-color: #1C1F26;
     border-radius: 8px;
@@ -1091,6 +1091,7 @@ li {
         font-size: 0.9rem;
     }
 }
+
 
 
 
